@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- MANDATORY JS EXERCISES (create a different file for this exercise)
-    1) Save this array in a variable called genres: ["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"]
-    2) Create an unordered list using JavaScript and save it in a variable
+  -  1) Save this array in a variable called genres: ["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"]
+  -  2) Create an unordered list using JavaScript and save it in a variable
     3) Cycle the array and create a list-item via JavaScript for every element
     4) Insert the genere as text in the list-item
     5) Append the list items in the unordered list
@@ -119,6 +119,20 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             Create the JavaScript logic that runs when the page finished loading and 
             counts the albums and applies the number in the area of the footer you've previously decided.
         -->
+
+        <script>
+
+            let genres =  ["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"]
+// 2) Create an unordered list using JavaScript and save it in a variable
+            const createUnOrderedList = function() {
+                var ul = document.getElementById("list");
+                var li = document.createElement("li");
+                li.appendChild(document.createTextNode("Four"));
+                ul.appendChild(li);
+                }
+// 3) Cycle the array and create a list-item via JavaScript for every element
+            
+        </script>
 </body>
 
 </html>
