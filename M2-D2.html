@@ -38,6 +38,10 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
     <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <style>
+      body{
+          background: rgb(2,0,36);
+          background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,9,21,1) 58%, rgba(0,74,255,1) 100%);
+      }
       /* EXERCISE 1
             For every Album displayed in the page we'd like to have a consistent appearence.
             Create the template of an Album component (you can start from a bootstrap one or create your own)
@@ -59,7 +63,8 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
   </head>
 
   <body>
-    <section>
+    <section class="row1">
+<!-- card 1 -->
       <div class="card" style="width: 18rem;">
       <img src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/542a2f7b-1a79-40c7-999d-515f73b9bc8c" class="card-img-top" alt="artist 1 ">
       <div class="card-body">
@@ -68,6 +73,36 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
         <a href="#" class="btn btn-primary">Go playlist</a>
       </div>
     </div>
+<!-- card 2  -->
+      <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRf5DxAe-6XkkkKEvyOZlXo0ORmMxBA7Pkg99Yrs_l9BUvV4l9y3kQAbkybijMdaOFT4&usqp=CAU" class="card-img-top" alt="artist 2 ">
+      <div class="card-body">
+        <h5 class="card-title">Los Suaves</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go playlist</a>
+      </div>
+    </div>
+    <!-- card 3  -->
+      <div class="card" style="width: 18rem;">
+      <img src="https://i.scdn.co/image/ab67616d0000b273719be02025db69fc168d35f5" class="card-img-top" alt="artist 3 ">
+      <div class="card-body">
+        <h5 class="card-title">Agar Agar</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go playlist</a>
+      </div>
+    </div>
+      
+    <!-- card 4  -->
+      <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/564x/17/63/f8/1763f835a3675bb5b6e6fe1c86ea9261.jpg" class="card-img-top" alt="artist 4 ">
+      <div class="card-body">
+        <h5 class="card-title">Gorillaz</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go playlist</a>
+      </div>
+    </div>
+      
+
 </section>
     <!-- EXERCISE 2 
             Implement a navigation bar using the bootstrap component
