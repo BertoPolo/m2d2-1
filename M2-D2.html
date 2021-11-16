@@ -59,6 +59,8 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             create CSS rules to style them if needed
             ...to make sure every Album component looks the same.
          */
+        
+         
     </style>
   </head>
 <!-- EXERCISE 2 
@@ -106,11 +108,15 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
         </form>
       </div>
     </nav>
+    <!-- CARDS -->
     <section>
+      - 4 albums per row when the screen is very large
+            - 3 albums per row when you are on a tablet (or a smaller viewport)
+            - 2 albums per row when you are on a small screen
       <!-- card 1 -->
       <div class="container">
-        <div class="row row-cols-4">
-          <div class="col card" style="width: 18rem;">
+        <div class="row row-cols-4 ">
+          <div class="col-6 col-md-4 col-lg-3 card" style="width: 18rem;">
             <img src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/542a2f7b-1a79-40c7-999d-515f73b9bc8c" class="card-img-top" alt="a1">
             <div class="card-body">
               <h3 class="card-title">Slayer</h3>
@@ -120,7 +126,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             </div>
           </div>
           <!-- card 2  -->
-          <div class="col card" style="width: 18rem;">
+          <div class="col-6 col-md-4 col-lg-3 card" style="width: 18rem;">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRf5DxAe-6XkkkKEvyOZlXo0ORmMxBA7Pkg99Yrs_l9BUvV4l9y3kQAbkybijMdaOFT4&usqp=CAU" class="card-img-top" alt="a2">
             <div class="card-body">
               <h3 class="card-title">Los Suaves</h3>
@@ -130,7 +136,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             </div>
           </div>
           <!-- card 3  -->
-          <div class="col card" style="width: 18rem;">
+          <div class="col-6 col-md-4 col-lg-3 card" style="width: 18rem;">
             <img src="https://i.scdn.co/image/ab67616d0000b273719be02025db69fc168d35f5" class="card-img-top" alt="a3">
             <div class="card-body">
               <h3 class="card-title">Agar Agar</h3>
@@ -140,7 +146,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             </div>
           </div>          
           <!-- card 4  -->
-          <div class="col card" style="width: 18rem;">
+          <div class="col-6 col-md-4 col-lg-3 card" style="width: 18rem;">
             <img src="https://i.pinimg.com/564x/17/63/f8/1763f835a3675bb5b6e6fe1c86ea9261.jpg" class="card-img-top" alt="a4">
             <div class="card-body">
               <h3 class="card-title">Gorillaz</h3>
@@ -149,6 +155,8 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
               <a href="#" class="btn btn-primary">Go playlist</a>
             </div>
           </div>
+        </div>
+      </div>
     </section> 
     <!-- EXERCISE 3
             Create a responsive section for your favourite albums.
@@ -157,50 +165,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             - 3 albums per row when you are on a tablet (or a smaller viewport)
             - 2 albums per row when you are on a small screen
         -->
-        <section>
-          <h2 class="text-white">Favourite Albums</h2>
-            <!-- card 1 -->
-            <div class="container">
-              <div class="row row-cols-4">
-                <div class="col card" style="width: 18rem;">
-                  <img src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/542a2f7b-1a79-40c7-999d-515f73b9bc8c" class="card-img-top" alt="a1">
-                  <div class="card-body">
-                    <h3 class="card-title">Slayer</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <h5> >Thrash Metal< </h5>
-                    <a href="#" class="btn btn-primary">Go playlist</a>
-                  </div>
-                </div>
-                <!-- card 2  -->
-                <div class="col card" style="width: 18rem;">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRf5DxAe-6XkkkKEvyOZlXo0ORmMxBA7Pkg99Yrs_l9BUvV4l9y3kQAbkybijMdaOFT4&usqp=CAU" class="card-img-top" alt="a2">
-                  <div class="card-body">
-                    <h3 class="card-title">Los Suaves</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <h5> >Rock and Roll< </h5>
-                    <a href="#" class="btn btn-primary">Go playlist</a>
-                  </div>
-                </div>
-                <!-- card 3  -->
-                <div class="col card" style="width: 18rem;">
-                  <img src="https://i.scdn.co/image/ab67616d0000b273719be02025db69fc168d35f5" class="card-img-top" alt="a3">
-                  <div class="card-body">
-                    <h3 class="card-title">Agar Agar</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <h5>>Psycho-electro-pop<</h5>
-                    <a href="#" class="btn btn-primary">Go playlist</a>
-                  </div>
-                </div>          
-                <!-- card 4  -->
-                <div class="col card" style="width: 18rem;">
-                  <img src="https://i.pinimg.com/564x/17/63/f8/1763f835a3675bb5b6e6fe1c86ea9261.jpg" class="card-img-top" alt="a4">
-                  <div class="card-body">
-                    <h3 class="card-title">Gorillaz</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <h5>>Alternative rock-art pop-hip hop-electronic-trip hop<</h5>
-                    <a href="#" class="btn btn-primary">Go playlist</a>
-                  </div>
-                </div>
+       
 
     <!-- EXERCISE 4
             Create a section for the album reviews.
